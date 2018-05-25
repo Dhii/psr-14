@@ -8,9 +8,9 @@
 [![This package complies with Dhii standards](https://img.shields.io/badge/Dhii-Compliant-green.svg?style=flat-square)][Dhii]
 
 ## Details
-This package holds the interfaces for the [PSR-14][php-fig/event-manager] standard. When the standard actually enters
-a draft state, and the FIG publishes it separately, this package may become deprecated. However, we will maintain
-compatibility where possible, and will release versions with proper stability.
+This package holds the interfaces for the [PSR-14][php-fig/event-manager] standard as it used to be when it was "Event Manager".
+When the standard actually enters a draft state, and the FIG publishes it separately, this package may become deprecated.
+However, we will maintain compatibility where possible, and will release versions with proper stability.
 
 ### Version Guide
 - [`0.1.x`][0.1.x] - This focuses on the [orignal specification][php-fig/event-manager]. If the spec changes, a new
@@ -24,8 +24,7 @@ in the original spec. If the spec breaks BC, the minor version number will incre
 
 [Dhii]:                                             https://github.com/Dhii/dhii
 
-[php-fig/event-manager]:                            https://github.com/php-fig/fig-standards/blob/master/proposed/event-manager.md
-
+[php-fig/event-manager]:                            https://github.com/php-fig/fig-standards/blob/3eb2c889eac563dc7b45d1bcd5a5b73a9502e7f1/proposed/event-manager.md
 [EventManagerInterface]:                            src/EventManagerInterface.php
 [EventInterface]:                                   src/EventInterface.php
 
